@@ -1,4 +1,4 @@
-# PYTHON API
+# FLASK SCRAPING
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
@@ -10,13 +10,13 @@
 
 - python [https://www.python.org/](https://www.python.org/)
 - flask: [https://flask-restful.readthedocs.io/en/latest/](https://flask-restful.readthedocs.io/en/latest/)
-- mongodb: [https://www.mongodb.com/](https://www.mongodb.com/)
+- beautifulsoup: [https://www.crummy.com/software/BeautifulSoup/](https://www.crummy.com/software/BeautifulSoup/)
 - docker: [https://www.docker.com/](https://www.docker.com/)
 
 ## Demo
 
-- api: [http://pythonapi.jnpl.me/](http://pythonapi.jnpl.me/)
-- api documentation: [http://pythonapi.jnpl.me/documentation/](http://nodeapi.jnpl.me/documentation/)
+- api: [http://scrapper.jnpl.me/](http://scrapper.jnpl.me/)
+- api documentation: [http://scrapper.jnpl.me/documentation/](http://scrapper.jnpl.me/documentation/)
 
 ## PYTHON
 
@@ -41,8 +41,7 @@
 ### Installation
 
 - build `docker-compose build`
-- install pip `docker exec -ti pythonapi pip install -r requirements.txt`
-- seed data `docker exec -ti pythonapi python seeders/seed_<seed-name>.py`
+- install pip `docker exec -ti pythonscraping pip install -r requirements.txt`
 
 ### How to Use
 
@@ -51,4 +50,4 @@
 
 ### Testing
 
-- run `docker exec -ti pythonapi python -m unittest tests/test_<test-name>.py`
+- run `docker exec -ti pythonscraping python -m unittest tests/test_<test-name>.py`
